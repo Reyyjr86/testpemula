@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="PUBLIC_URL/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>TUGAS WEB</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="asetts/icon/partner.png" alt="logo" class="logo-img" />
+				<h1 class="LOGO-title">REY X</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li>
+					<li><a href="mailto:bsmuda08@gmail.com">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, M.Reyvaldo Here!</p>
+				<p class="description">The freelencer front end web development.</p>
+				<img src="asetts/foto/WhatsApp Image 2024-01-27 at 22.13.56.jpeg" alt="rey foto 1" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Saya Adalah Programmer</p>
+				<p class="description">Ngoding aja dulu, jagonya belakangan.</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsApp()">Mari Kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="jasa">
+					<div class="card-item">
+						<img src="asetts/icon/24-hours.png" alt="icon 1" class="icon"/>
+						<p class="card-title">Pelayanan Nonstop</p>
+						<p class="card-description">Kita aktif dalam 24 Jam Nonstop ketika anda membutuhkan bantuan.</p>
+					</div>
+					<div class="card-item">
+						<img src="asetts/icon/hot-deal.png" alt="icon 2" class="icon"/>	
+						<p class="card-title">Jasa Paling Murah</p>
+						<p class="card-description">biaya jasa yang saya berikan pasti Murah dan terjamin.</p>
+					</div>
+					<div class="card-item">
+						<img src="asetts/icon/rating.png" alt="icon 3" class="icon"/>	
+						<p class="card-title">999+ review</p>
+					<p class="card-description">Mereka senang dalam bekerja sama dengan saya.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; M.Reyvaldo Website 2024</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/_jackpelor01"
+			} 
+			
+			function redirWhatsApp() {
+				window.location.href = "https://wa.me/+6288754657702"
+			}
+		</script>
+	</body>
+</html>
